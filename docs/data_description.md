@@ -4,7 +4,7 @@
 - **Platform**: Reddit
 - **Archive**: [Arctic Shift](https://arctic-shift.photon-reddit.com/download-tool)
 - **Subreddits**: r/mentalhealth, r/anxiety, r/depression, r/psychology
-- **Rationale**: Reddit API restrictions (post-June 2023) prevent bulk historical data collection; Arctic Shift provides complete subreddit archives with consistent field coverage and is used in recent academic research (e.g., del Rio-Chanona et al., 2024; Shan & Qiu, 2025).
+- **Rationale**: Reddit API restrictions (post-June 2023) prevent bulk historical data collection; Arctic Shift provides complete subreddit archives with consistent field coverage and is used in recent academic research.
 
 ## Collection Method
 1.  **Download**: JSONL files from Arctic Shift download tool.
