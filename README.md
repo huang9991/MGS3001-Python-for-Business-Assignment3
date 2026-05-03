@@ -19,5 +19,5 @@ use, and emotional supportiveness in Reddit mental health communities?
 1. pip install pandas numpy scipy statsmodels scikit-learn textblob nltk tqdm
 2. python -c "import nltk; nltk.download('vader_lexicon')"
 3. Place JSONL files in ./data/ following naming: r_{subreddit}_posts.jsonl
-4. Run: python data_load_and_analysis.py
+4. Run: Just execute the data_collection.ipynb file sequentially/cell by cell
 <img width="468" height="576" alt="image" src="https://github.com/user-attachments/assets/3c218345-156f-4a91-8f1c-7e3e8bcca777" />
