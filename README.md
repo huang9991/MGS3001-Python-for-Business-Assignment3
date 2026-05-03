@@ -13,7 +13,7 @@ use, and emotional supportiveness in Reddit mental health communities?
 - Subreddits: r/mentalhealth, r/anxiety, r/depression, r/psychology
 - Period: September 2021 – April 2026
 - Format: JSONL → processed CSV
-- Size: ~800,000+ posts and comments
+- Size: ~1000,000+ posts and comments
 
 ## How to Run
 1. pip install pandas numpy scipy statsmodels scikit-learn textblob nltk tqdm
