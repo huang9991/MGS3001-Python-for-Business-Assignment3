@@ -1,4 +1,3 @@
-<img width="468" height="98" alt="image" src="https://github.com/user-attachments/assets/1d815acf-91f8-4b1c-b03f-0199d45efe35" /># MGS3001-Python-for-Business-Assignment3
 # AI-Enabled Democratization of Psychoeducation: Evidence from Reddit
 
 **Author:** Kexin Huang | MGS 3001 WHS01
@@ -13,7 +12,7 @@ use, and emotional supportiveness in Reddit mental health communities?
 - Subreddits: r/mentalhealth, r/anxiety, r/depression, r/psychology
 - Period: September 2021 – April 2026
 - Format: JSONL → processed CSV
-- Size: 565354 posts and comments（Due to space constraints, this report provides a representative sample - first 1,000 rows to illustrate the collection and cleaning pipeline）
+- Size: 1693427 posts and comments（Due to space constraints, this report provides a representative sample - first 1,000 rows to illustrate the collection and cleaning pipeline）
 
 
 ## How to Run
