@@ -1,0 +1,36 @@
+{
+  "generated_time": "2026-05-31T20:25:51.971377",
+  "use_did": true,
+  "run_original_methods": true,
+  "did_results": {
+    "H1": {
+      "did_coefficient": 0.0001384383641571173,
+      "p_value": 2.3371302873666187e-05,
+      "significant": false
+    },
+    "H2": {
+      "did_coefficient": 0.019159603288423574,
+      "p_value": 0.0003610767591832925,
+      "significant": false
+    },
+    "H3": {
+      "did_coefficient": -0.00732270446113905,
+      "p_value": 9.227206758325288e-60,
+      "significant": false
+    }
+  },
+  "traditional_results": {
+    "H1": {
+      "p_value": null,
+      "significant": true
+    },
+    "H2": {
+      "p_value": null,
+      "significant": true
+    },
+    "H3": {
+      "p_value": null,
+      "significant": true
+    }
+  }
+}

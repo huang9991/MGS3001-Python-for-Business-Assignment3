@@ -1,0 +1,159 @@
+{
+  "main_analysis": {
+    "unified_did": {
+      "psychoedu_score": {
+        "hypothesis": "H1: Psychoeducation score",
+        "did_coefficient": 0.0001384383641571173,
+        "did_pvalue": 2.3371302873666187e-05,
+        "did_se": 3.2727907400536925e-05,
+        "did_ci_lower": 7.429284436270303e-05,
+        "did_ci_upper": 0.0002025838839515316,
+        "psm_did_coefficient": 0.0001362549942861015,
+        "psm_did_pvalue": 2.0892987876580058e-05,
+        "parallel_trend_passed": false,
+        "placebo_pvalue": 0.6497238437847699,
+        "r_squared": 0.0007487917657894583
+      },
+      "psych_term_density": {
+        "hypothesis": "H2: Psychological term density (Per thousand words)",
+        "did_coefficient": 0.019159603288423574,
+        "did_pvalue": 0.0003610767591832925,
+        "did_se": 0.005371333300073782,
+        "did_ci_lower": 0.008631983471318288,
+        "did_ci_upper": 0.029687223105528862,
+        "psm_did_coefficient": 0.010868377084887599,
+        "psm_did_pvalue": 0.0403081616768052,
+        "parallel_trend_passed": false,
+        "placebo_pvalue": 9.62043019703368e-16,
+        "r_squared": 0.02939868495628828
+      },
+      "support_score": {
+        "hypothesis": "H3: Support score",
+        "did_coefficient": -0.00732270446113905,
+        "did_pvalue": 9.227206758325288e-60,
+        "did_se": 0.0004491324047049635,
+        "did_ci_lower": -0.008202987798650646,
+        "did_ci_upper": -0.006442421123627454,
+        "psm_did_coefficient": 0.0533735638400712,
+        "psm_did_pvalue": 0.0,
+        "parallel_trend_passed": false,
+        "placebo_pvalue": 3.926672934050183e-05,
+        "r_squared": 0.04541786478567611
+      }
+    },
+    "individual_did": {
+      "H1": {
+        "hypothesis": "H1: 心理教育内容得分",
+        "did_coefficient": 0.0001384383641571173,
+        "did_pvalue": 2.3371302873666187e-05,
+        "did_se": 3.2727907400536925e-05,
+        "did_ci_lower": 7.429284436270303e-05,
+        "did_ci_upper": 0.0002025838839515316,
+        "psm_did_coefficient": 0.0001362549942861015,
+        "psm_did_pvalue": 2.0892987876580058e-05,
+        "parallel_trend_passed": false,
+        "placebo_pvalue": 0.6497238437847699,
+        "r_squared": 0.0007487917657894583
+      },
+      "H2": {
+        "hypothesis": "H2: 心理学术语密度",
+        "did_coefficient": 0.019159603288423574,
+        "did_pvalue": 0.0003610767591832925,
+        "did_se": 0.005371333300073782,
+        "did_ci_lower": 0.008631983471318288,
+        "did_ci_upper": 0.029687223105528862,
+        "psm_did_coefficient": 0.010868377084887599,
+        "psm_did_pvalue": 0.0403081616768052,
+        "parallel_trend_passed": false,
+        "placebo_pvalue": 9.62043019703368e-16,
+        "r_squared": 0.02939868495628828
+      },
+      "H3": {
+        "hypothesis": "H3: 情感支持得分",
+        "did_coefficient": -0.00732270446113905,
+        "did_pvalue": 9.227206758325288e-60,
+        "did_se": 0.0004491324047049635,
+        "did_ci_lower": -0.008202987798650646,
+        "did_ci_upper": -0.006442421123627454,
+        "psm_did_coefficient": 0.0533735638400712,
+        "psm_did_pvalue": 0.0,
+        "parallel_trend_passed": false,
+        "placebo_pvalue": 3.926672934050183e-05,
+        "r_squared": 0.04541786478567611
+      }
+    }
+  },
+  "robustness_checks": {},
+  "original_methods": {
+    "H1": {
+      "hypothesis": "H1",
+      "method": "Chi-square + t-test + Mann-Whitney U + RDD",
+      "before_prop": 0.000769194010998934,
+      "after_prop": 0.0016003760023542103,
+      "change": 0.0008311819913552763,
+      "chi2_pvalue": 0.0,
+      "t_pvalue": 0.0,
+      "mannwhitney_pvalue": 0.0,
+      "cohens_d": 0.041198173701600685,
+      "significant": true,
+      "rdd_coefficient": 0.00010712428600737101,
+      "rdd_pvalue": 0.01779804554803082
+    },
+    "H2": {
+      "hypothesis": "H2",
+      "method": "Chi-square + t-test + Mann-Whitney U + RDD",
+      "before_density": 0.9077256727901054,
+      "after_density": 1.0478616067930744, 
+      "change": 0.14013593400296898,
+      "chi2_pvalue": 0.0,
+      "t_pvalue": 0.0,
+      "mannwhitney_pvalue": 0.0,
+      "cohens_d": 0.041052952792571484,
+      "significant": true,
+      "rdd_coefficient": 0.2922066891229917,
+      "rdd_pvalue": 2.634659072368543e-283,
+      "quantile_changes": {
+        "q25": {
+          "before": 0.0,
+          "after": 0.0,
+          "change": 0.0
+        },
+        "q50": {
+          "before": 0.0,
+          "after": 0.0,
+          "change": 0.0
+        },
+        "q75": {
+          "before": 0.0,
+          "after": 0.0,
+          "change": 0.0
+        },
+        "q90": {
+          "before": 3.021148036253776,
+          "after": 2.707581227436823,
+          "change": -0.3135668088169532
+        }
+      }
+    },
+    "H3": {
+      "hypothesis": "H3",
+      "method": "Chi-square + t-test + Mann-Whitney U + RDD",
+      "before_support": 0.22678327509809662,
+      "after_support": 0.22502918292845767,
+      "change": -0.0017540921696389544,
+      "chi2_pvalue": 0.0,
+      "t_pvalue": 7.206097550640689e-27,
+      "mannwhitney_pvalue": 1.3803576711423215e-05,
+      "cohens_d": 0.00850193842893471,
+      "significant": true,
+      "rdd_coefficient": 0.00972531717376398,
+      "rdd_pvalue": 3.467271787030301e-94,
+      "sentiment_distribution": {
+        "before_positive_rate": 0.701093623103844,
+        "after_positive_rate": 0.6851660033091121,
+        "before_negative_rate": 0.6101806409899716,
+        "after_negative_rate": 0.5992222363592793
+      }
+    }
+  }
+}
