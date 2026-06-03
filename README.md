@@ -20,3 +20,8 @@ use, and emotional supportiveness in Reddit mental health communities?
 2. python -c "import nltk; nltk.download('vader_lexicon')"
 3. Place JSONL files in ./data/ following naming: r_{subreddit}_posts.jsonl
 4. Run: Just execute the data_collection.ipynb file sequentially/cell by cell
+
+## Hardware
+
+- **Model**: Dell Pro 14 Premium
+- **OS**: Windows 11 Pro
